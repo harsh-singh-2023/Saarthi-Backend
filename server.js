@@ -16,7 +16,8 @@ const app = express();
 
 // 1. Define the options and whitelist your Vercel frontend
 const corsOptions = {
-  origin: "https://saarthi-coral.vercel.app",
+  // origin: "https://saarthi-coral.vercel.app",
+  origin: "https://main.d15nuea3wj0u9n.amplifyapp.com/",
   optionsSuccessStatus: 200, // For legacy browser support
 };
 
